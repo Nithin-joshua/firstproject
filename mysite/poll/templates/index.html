@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll Application</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Poll Application</h1>
+    </header>
+    <div class="container">
+        <h2>Current Polls</h2>
+        <!-- Polls will be listed here -->
+        <button>Vote Now</button>
+    </div>
+    <script src="{% static 'scripts.js' %}"></script>
+</body>
+</html>
